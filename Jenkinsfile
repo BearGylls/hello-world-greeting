@@ -27,8 +27,6 @@ pipeline {
           }
       
         }
-*/
-/*
         stage('Analyse statique') {
       
           steps {
@@ -40,7 +38,7 @@ pipeline {
           }
       
         }
-*/
+        */
         stage('Compilation') {
     
           steps {  
@@ -56,11 +54,10 @@ pipeline {
           }
 
         }
-    
+    /*
      // }
   
     }
-    /*
     stage('Tests de déploiement') {
       
       agent {
@@ -100,8 +97,6 @@ pipeline {
       }
       
     }
-    */
-    /*
     stage('Creation de l\'image') {
       
       agent {
@@ -140,6 +135,6 @@ pipeline {
         }
       }
     }
+   */
   }
-  */
 }
