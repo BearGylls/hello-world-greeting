@@ -4,10 +4,6 @@ pipeline {
 /*    
     stage('Compilation et tests') {
 
-      agent {
-        label 'agent_java'
-      }
-
       stages {
   
         stage('Test unitaire & publication') {
@@ -36,6 +32,9 @@ pipeline {
           }
         }
 */        
+      agent {
+        label 'agent_java'
+      }    
         stage('Compilation') {
     
           steps {  
